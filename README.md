@@ -19,7 +19,7 @@ Existen varias opciones para buscar palabras por grupos o individualmente, mostr
 Como interfaz gráfica se ha usado GTK+ 3.0.
 
 A diferencia de Data_words_v1 esta nueva versión permite introducir textos en el apartado buscar por grupos, omitiendo todo lo que no sean letras (exceptuando los caracteres ºª·¬¡¿€´¨çÇ), 
-extreayendo las palabras para compararlas con las que podrían estar o no en el si fichero.
+extrayendo las palabras para compararlas con las que podrían estar o no en el si fichero.
 
 También se ha includo un archivo css para modificar algunos aspectos del textview y de los botones.
 
