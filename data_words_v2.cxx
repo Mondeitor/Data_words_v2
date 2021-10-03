@@ -19135,7 +19135,7 @@ int main(int argc, char **argv)
     page1 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 1);
     titlePage1 = gtk_label_new("Search group");
     layerFixed = gtk_fixed_new();
-    label1Page1 = gtk_label_new("                                                Enter words to search                                                ");
+    label1Page1 = gtk_label_new("                                                Enter the text to search for the words                                                ");
     label2Page1 = gtk_label_new(" The were not found in the file  ");
     label11Page1 = gtk_label_new("\n");
     label3Page1 = gtk_label_new("To search:");
@@ -19707,7 +19707,7 @@ int main(int argc, char **argv)
     
     
     /**Metemos esto para ocupar espacio en la ventana**/
-    label6Page4 = gtk_label_new("             ");
+    label6Page4 = gtk_label_new("                            ");
     gtk_box_pack_start(GTK_BOX(hbox10Page4), label6Page4, FALSE, FALSE, 5);
     gtk_box_pack_start(GTK_BOX(vbox3Page4), hbox10Page4, FALSE, FALSE, 5);
     
@@ -19861,7 +19861,7 @@ int main(int argc, char **argv)
     label6Page5 = gtk_label_new("");
     label7Page5 = gtk_label_new("Time:");
     label8Page5 = gtk_label_new("");
-    label10Page5 = gtk_label_new("\n\n\n\n(If the words begin with ä, \nö, ü, we write them in upper \ncase, if they are in the rest \nof the word we write them \nin lower case. \nMax: 9000 characters.");
+    label10Page5 = gtk_label_new("\n\n\n\n(If the words begin with ä, \nö, ü, we write them in upper \ncase, if they are in the rest \nof the word we write them \nin lower case. \nMax: 9000 characters.                ");
     
     
     /**PRIMER TextView**/
